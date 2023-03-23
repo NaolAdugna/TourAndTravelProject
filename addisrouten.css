@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 390vh;
+}
+
+#header{
+    height: 900px;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(images/addis\ abaab2.jpg);
+    background-size: cover;
+}
+
+.navContainer{
+    width: 1795px;
+    height: 10vh;
+    background-color:transparent;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    top: 0;
+    display:block;
+    transition: top 0.3s;
+    position: relative;
+}
+
+.homeNav{
+    margin-left: 19rem;
+  }
+  
+  .buttonNav{
+    margin-top: 2rem;
+    border-radius: 10px;
+    background-color: black;
+  
+  }
+  
+  .loginNav{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    padding-top: 3rem;
+  }
+  
+
+section nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    text-decoration: none;
+    padding-right: 5rem;
+    list-style: none;
+}
+
+section nav ul li{
+    display: flex;
+    justify-items: auto;
+    position: relative;
+    margin-right: 50px;
+    text-decoration: none;
+    position: relative;
+}
+
+section nav ul li a{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    color: white;
+    text-align: center;
+    /*padding: 15px;*/
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 2rem;
+    transition: all 0.3s;
+}
+
+section nav ul li a:hover{
+    color: orange;
+}
+
+.navContainer ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+  }
+   
+  .navContainer ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 250px;
+    padding: 10px;
+    background-color: gray;
+  }
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+
+  .dropdown-menu {
+    display: none;
+  }
+
+
+#addisSection{
+    margin-top: 3rem;
+    width: 100%;
+    height: 200vh;
+}
+
+#addisSection h2{
+    font-size: 2.2rem;
+    margin-left: 5%;
+    margin-bottom: 3rem;
+}
+
+#addisSection h2 span{
+    color: red;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.placeContainer{
+    display: flex;
+}
+.placeContainer2{
+    display: flex;
+}
+
+.text h1{
+    font-size: 1.9rem;
+}
+
+.text p{
+    font-size: 1.3rem;
+}
+
+.museum{
+    /* background-color: black; */
+    /* color: white; */
+    width: 40%;
+    margin-left: 8rem;
+}
+
+.museum img{
+    height: 400px;
+    width: 700px;
+}
+.park{
+    /* background-color: black; */
+    width: 60%;
+    margin-left: 7rem;
+    /* color: white; */
+    margin-right: 15rem;
+}
+
+.park img{
+    height: 400px;
+    width: 700px;
+}
+
+.nationalPark{
+    margin-top: 3rem;
+    /* background-color: black; */
+    width: 40%;
+    margin-left: 8rem;
+    /* color: white; */
+}
+
+.nationalPark img{
+    height: 400px;
+    width: 700px;
+}
+
+.palace{
+    /* color: white; */
+    margin-top: 3rem;
+    /* background-color: black; */
+    width: 60%;
+    margin-left: 7rem;
+    margin-right: 15rem;
+}
+
+.palace img{
+    height: 400px;
+    width: 700px;
+}
+
+.servicesWeOffer{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.servicesWeOffer h1{
+    font-size: 2rem;
+}
+
+.servicesWeOffer ul{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.servicesWeOffer li{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.7px;
+}
+
+.servicesWeOffer p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.7px;
+}
+
+#terms{
+    width: 100%;
+    height: 50vh;
+   /* background:linear-gradient(45deg,#B3EB50,#429421,#B3EB50);
+   */ margin-top: 11rem;
+  }
+  
+  #terms h2{
+    text-align: center;
+    font-size: 2.9rem;
+    padding-top: 2rem;
+  }
+  
+  .policyContainer{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 28rem;
+  }
+  
+  .term img{
+    border-radius: 50%;
+    margin-right: 4rem;
+  }
+  
+  .responsability img{
+    border-radius: 50%;
+    margin-right: 4rem;
+  }
+  
+  .covid img{
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="signup.css">
+	<title>Document</title>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="header">
+			<h2>Sign Up</h2>
+		</div>
+		<form action="signup.php" method="post" id="form" class="form">
+			<div class="form-control">
+				<label for="firstName">First Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" placeholder="Enter your first name" id="firstname" name="firstname"  />
+				<small id="fnerror" ></small>
+			</div>
+
+            <div class="form-control">
+				<label for="lastName">Last Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" placeholder="enter your last name" id="lastname" name="lastname" required  />
+				<small id="lnerror" >Error message</small>
+			</div>
+			<div class="form-control">
+				<label for="username">Username</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" placeholder="enter user name" id="username" name="username" required  />
+				<small id="unerror" >Error message</small>
+			</div>
+			<div class="form-control">
+				<label for="username">Email</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="email" placeholder="example@gmail.com" id="email" name="email"  required />
+				<small id="emerror" >Error message</small>
+			</div>
+			<div class="form-control">
+				<label for="username">Password</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="password" placeholder="Enter Password" id="password" name="password2"  required/>
+				<small id="passerror" >Error message</small>
+			</div>
+			<div class="form-control">
+				<label for="username">Retype Password</label> &nbsp;&nbsp;&nbsp;
+				<input type="password" placeholder="Retype your password" id="password" name="password3"  required/>
+				<small id="repasserror" >Error message</small>
+			</div>
+			<input type="submit" value="SignUp" onsubmit="validator()" class="button" name="buttonn"> 
+            <div class="icon">
+                <p class="account">have account? <a href="login.html" class="sign">Login  </a> <br> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;or</p>
+           
+                <a href="#"><ion-icon name="logo-facebook" class="fb"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-google" class="google"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter" class="twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin" class="linkedin"></ion-icon></a>
+            </div>
+        </form>
+	</div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>            

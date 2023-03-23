@@ -1,0 +1,500 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 550vh;
+}
+
+#header{
+    height: 900px;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(images/erta-ale\ \(1\).jpg);
+    background-size: cover;
+    animation: change 100s infinite ease-in-out;
+}
+
+.navContainer{
+  width: 1795px;
+  height: 10vh;
+  background-color:transparent;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 1);
+  position: fixed;
+  top: 0;
+  display:block;
+  transition: top 0.3s;
+  position: relative;
+}
+
+.homeNav{
+  margin-left: 19rem;
+}
+
+.buttonNav{
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: black;
+
+}
+
+.loginNav{
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  border-radius: 20px;
+  color: white;
+  padding-top: 3rem;
+}
+
+
+@keyframes change{
+    0%{
+        background-image: url(images/redFox2.jpg);
+    }
+    20%{
+        background-image: url(images/roasting-coffee_z.jpg);
+    }
+    40%{
+        background-image: url(images/EthiopianFood_Eater_HeatWeek_001.jpg);
+    }
+    60%{
+        background-image: url(images/Ethiopia-Simien-Mountains.jpg);
+    }
+    80%{
+        background-image: url(images/simen\ ethiopia.jpg);
+    }
+    100%{
+        background-image: url(images/Omo\ valley\ and\ Semien\ mountain.jpg);
+    }
+}
+
+
+section nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  text-decoration: none;
+  padding-right: 5rem;
+  list-style: none;
+}
+
+section nav ul li{
+  display: flex;
+  justify-items: auto;
+  position: relative;
+  margin-right: 50px;
+  text-decoration: none;
+  position: relative;
+}
+
+section nav ul li a{
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  color: white;
+  text-align: center;
+  /*padding: 15px;*/
+  text-decoration: none;
+  font-size: 25px;
+  padding-top: 2rem;
+  transition: all 0.3s;
+}
+
+section nav ul li a:hover{
+  color: orange;
+}
+
+.navContainer ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: var(--color-black);
+}
+ 
+.navContainer ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .dropdown-menu ul li {
+  width: 250px;
+  padding: 10px;
+  background-color: gray;
+}
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+  #main{
+    width: 100%;
+    height: 70vh;
+  }
+
+  #whoAreWe{
+    width: 60%;
+}
+
+#main h3{
+  position: absolute;
+  top: 115%;
+  left: 35%;
+  font-size: 2.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-decoration: none;
+}
+
+.whoAreWeText:hover{
+  color: cadetblue;
+}
+
+#whoImage{
+  float: left;
+  padding-top:9rem; 
+  width: 300px;
+  height: 100px;
+ padding-left: 15rem;
+}
+
+#whoText{
+  padding-top: 9rem;
+  font-size: 1.3rem;
+  padding-left: 25rem;
+}
+
+#whatWeDo{
+  width: 60%;
+  height: 400px;
+}
+
+.whatImage img{
+  width: 159px;
+  height: 220px;
+  float: left;
+  padding-top: 5rem;
+  margin-left: 14rem;
+}
+
+.whatText{
+  padding-left: 25rem;
+  font-size: 1.3rem;
+  padding-top: 5rem;
+}
+
+.istourism{
+  display: flex;
+
+}
+
+#isTourismGood{
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-color: rgba(17, 26, 43,0.9);
+  margin-top: 9rem;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.isTourismGoodText{
+  width:600px;
+  height: 58vh;
+  margin-top: 3rem;
+  margin-left: 17rem;
+}
+
+#head{
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  margin-left: 3rem;
+}
+
+#head strong{
+  font-size: 2.3rem;
+}
+
+#isTourismGoodVideo{
+  width: 35vw;
+  height: 45vh;
+  margin-top: 9rem;
+  margin-left: 8rem;
+}
+
+.popularDestinationContainer{
+  display: flex;
+}
+
+.popularDestinationContainer2{
+  display: flex;
+}
+
+.image{
+  width: 150px;
+  height: 50px;
+}
+
+.destinations{
+  margin-top: 3rem;
+}
+
+#desinationUnderScore{
+  color: red;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+#underscore{
+  color: red;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.addisAndSurrond{
+  background:linear-gradient(45deg,#a3b8cf,#E3E3E3);
+  width: 370px;
+  height: 75vh;
+  margin-left: 17rem;
+  margin-right: 2rem;
+}
+
+.addisAndSurrond:hover{
+  filter: drop-shadow(5px 8px 8px black);
+  transform: rotateY(-5px);
+}
+
+#popularDestination h4{
+  font-size: 2.4rem;
+  margin-top: 2.1rem;
+  margin-left: 16%;
+}
+
+.destinations h5{
+  padding-top: 15rem;
+  padding-left: 3rem;
+  font-size: 1rem;
+}
+
+.destinations p{
+  padding-top: 1.5rem;
+}
+
+.text{
+  letter-spacing: 1.1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-break: auto;
+  line-height: 21.4px;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.north{
+  width: 390px;
+  height: 270px;
+}
+
+.northern{
+  background:linear-gradient(45deg,#a3b8cf,#E3E3E3);
+  width: 390px;
+  height: 75vh;
+  margin-right: 2rem;
+}
+
+.northern:hover{
+  filter: drop-shadow(5px 8px 8px black);
+  transform: rotateZ(-5px);
+}
+
+.southern{
+  background:linear-gradient(45deg,#a3b8cf,#E3E3E3);
+  background-size: cover;
+  width: 370px;
+  height: 75vh;
+}
+
+.southern:hover{
+  filter: drop-shadow(5px 8px 8px black);
+  transform: rotateY(-5px);
+}
+
+.eastern{
+  width: 370px;
+  height: 75vh;
+  background:linear-gradient(45deg,#a3b8cf,#E3E3E3);
+  margin-left: 17rem;
+  margin-right: 2rem;
+}
+
+.eastern:hover{
+  filter: drop-shadow(5px 8px 8px black);
+  transform: rotateY(-5px);
+}
+
+.text2{
+  letter-spacing: 1.1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-break: auto;
+  line-height: 21.4px;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.southEastern{
+  width: 390px;
+  height: 75vh;
+  background:linear-gradient(45deg,#a3b8cf,#E3E3E3);
+  margin-right: 2rem;
+}
+
+.southEastern:hover{
+  filter: drop-shadow(5px 8px 8px black);
+  transform: rotateY(-5px);
+}
+
+.hiking{
+  width: 370px;
+  height: 75vh;
+  background:linear-gradient(45deg,#a3b8cf,#E3E3E3);
+}
+
+.hiking:hover{
+  filter: drop-shadow(5px 8px 8px black);
+  transform: rotateY(-5px);
+}
+
+.text button{
+  margin-top: 0.7rem;
+  margin-left: 0.2rem;
+  width: 7.5rem;
+  height: 2rem;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.text button:hover{
+  background:linear-gradient(45deg,#5EFCE8,#736EFE) ;
+}
+
+.text button a{
+  padding-left:  5.8px; ;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+
+.text2 button{
+  margin-top: 0.7rem;
+  margin-left: 0.2rem;
+  width: 7.5rem;
+  height: 2rem;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.text2 button:hover{
+  background:linear-gradient(45deg,#5EFCE8,#736EFE) ;
+}
+
+.text2 button a{
+  padding-left:  5.8px; ;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+
+#ethiopiaFestival h6{
+  margin-left: 12%;
+  margin-top: 3.5rem;
+  font-size: 2rem;
+}
+
+
+.festivalContainer{
+  display: flex;
+  padding: 20px;
+  width: 90%;
+  margin: 100px auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imageBox{
+  margin-right:  40px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 1s;
+  color: red;
+}
+
+.imageBox:hover{
+  transform: scale(1.3);
+  z-index: 2;
+  font-size: 2.3rem;
+  display: block;
+}
+
+.imageBox img{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#terms{
+  width: 100%;
+  height: 50vh;
+ /* background:linear-gradient(45deg,#B3EB50,#429421,#B3EB50);
+ */ margin-top: 4rem;
+}
+
+#terms h2{
+  text-align: center;
+  font-size: 2.9rem;
+}
+
+.policyContainer{
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 28rem;
+}
+
+.term img{
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.sustainability img{
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.responsability img{
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.covid img{
+  border-radius: 50%;
+}
+

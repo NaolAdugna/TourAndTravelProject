@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Your Tour</title>
+    <link rel="stylesheet" href="design-tour.css">
+</head>
+<body>
+    <header>
+        <section id="header">
+            <div class="navContainer">
+                    <nav>
+                        <ul>
+                            <button class="buttonNav"> <a href="login.html" class="loginNav">Login</a></button>
+                            <li><a href="travel.php" class="homeNav">HOME</a></li>
+                            <li>
+                                <a href="#">ETHIOPIA <i class="fas"></i> </a>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li><a href="discover.html">Discover Ethiopia</a></li>
+                                        <li><a href="gallery.html">Photo Gallery</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="design-tour.html">DESIGN YOUR TOUR</a></li>
+                            <li><a href="about-us.html">ABOUT US</a></li>
+                            <li><a href="contact-us.html">CONTACT US</a></li>
+                        </ul>    
+                    </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="design">
+            <div class="designContainer">
+                <div id="text">
+                    <h2 id="designHead">DESIGN YOUR TOUR</h2>
+                    <p><em>If you don't find your perfect tour destination please feel free and design your tour yourself.</em></p>
+                </div>
+                <form action="design-tour.php" method="post">
+                    <div class="input">
+                        <div class="firstRowLabelContainer">
+                            <label for="arrivalDate"  class="firstRowFirstLabel">Arrival Date</label> 
+                            <label for="departureDate" class="firstRowSecondLabel">Departure Date</label> 
+                            <label for="adult" class="firstRowThirdLabel">Adult</label>
+                            <label for="child" class="firstRowFourthLabel">Child</label>
+                        </div>
+                        <div class="secondRowInputContainer">
+                            <input type="date" name="arrivalDate" id="arrivalCalender " class="secondRowFirstInput" name="arrival"> 
+                            <input type="date" name="departureDate" id="departureCalender" class="secondRowSecondInput" name="departure">
+                            <input type="text" class="secondRowThirdInput" placeholder="Enter no. of adult" name="adult">
+                            <input type="text" class="secondRowFourthInput" placeholder="Enter no. of child" name="child">
+                        </div>
+                        <div class="thirdRowLabelContainer">
+                            <label for="name" class="thirdRowFirstLabel">Full Name</label>
+                            <label for="address" class="thirdRowSecondLabel">Your Address</label> 
+                            <label for="email" class="thirdRowthirdLabel">Your Email</label>
+                            <label for="phoneNo" class="thirdRowFourthLabel">Your Phone No.</label>
+                        </div>
+                        <div class="fourthRowInputContainer">
+                            <input type="text" placeholder="Enter your name" required class="fourthRowFirstInput" name="name">
+                            <input type="text" placeholder="Enter your address" class="fourthRowSecondInput" name="address"> 
+                            <input type="email" name="email" id="emailInput" placeholder="Enter your email" required class="fourthRowThirdInput" name="email">
+                            <input type="number" name="phoneNo" id="phoneInput" placeholder="Enter your phone no." class="fourthRowFourthInput" name="phone">
+                        </div>
+                        <div class="seventhRowLabelContainer">
+                            <label for="room" class="seventhRowFirstLabel">Room</label>
+                            <label for="escorting" class="seventhRowSecondLabel">Escorting Guide</label>
+                            <label for="destinationToVisit" class="seventhRowThirdLabel">Destination to visit</label>
+                            <label for="otherDestination" class="seventhRowFourthLabel">Other Destination</label>
+                        </div>
+                        <div class="ninethRowInputContainer">
+                            <select name="room" id="roomInput" class="ninethRowFirstInput" > 
+                                <optgroup label="Sheraton Addis"> 
+                                    <option value="default" selected hidden>Choose Hotel</option>
+                                    <option value="single" >Single Room</option>
+                                    <option value="double">Double Room</option>
+                                    <option value="king">King Room</option>
+                                </optgroup>
+                                <optgroup label="Golden Star">
+                                    <option value="queen">Queen Room</option>
+                                    <option value="luxury">Luxury Room</option>
+                                </optgroup>
+                                
+                            </select> 
+                            <select name="escorting" id="escortingInput" class="ninethRowSecondInput">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                           <select name="destinationToVisit" id="destinationToVisitInput" class="ninethRowThirdInput">
+                                <option value="north">Northern  Route</option>
+                                <option value="south">Southern  Route</option>
+                                <option value="eastern">Eastern Route</option>
+                                <option value="addis">Addis Ababa & Surround</option>
+                            </select>
+                             <input type="text" name="otherDestination" id="otherDestinationInput" placeholder="Other destination?" name="otherDestination" class="ninethRowFourthInput"> 
+                        </div>
+                        <div class="tenthRowLabelContainer">
+                            <label for="comment" class="tenthRowFirstLabel">comment</label>
+                        </div>
+                        <div class="eleventhRowInputContainer">
+                            <textarea name="comment" id="commentInput" cols="30" rows="10" name="comment" placeholder="Write your comment" class="eleventhRowFirstInput"></textarea>
+                        </div>
+                        <div class="button">
+                            <input type="reset" value="RESET">
+                           <input type="submit" value="BOOK NOW">
+                        </div>
+                         
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="terms">
+            <h2>Terms and Conditions</h2>
+            <div class="policyContainer">
+                <div class="term">
+                    <a href="term.html"><img src="images/images (2).jfif" alt=""></a>
+                </div>
+                <div class="responsability">
+                    <a href="responsability.html"><img src="images/Responsibility-accounting2.jpg" alt=""></a>
+                </div>
+                <div class="covid">
+                    <a href="covid.html"><img src="images/covid.jpg" alt=""></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

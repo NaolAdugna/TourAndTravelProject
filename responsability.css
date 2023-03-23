@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 256vh;
+}
+
+#header{
+  height: 900px;
+  width: 100%;
+  overflow:hidden;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/responsibility\ \(1\).jpg);
+  background-size: cover;
+}
+
+.navContainer{
+width: 1795px;
+height: 10vh;
+background-color:transparent;
+position: sticky;
+background-color: rgba(0, 0, 0, 1);
+position: fixed;
+top: 0;
+display:block;
+transition: top 0.3s;
+position: relative;
+}
+
+.homeNav{
+margin-left: 19rem;
+}
+
+.buttonNav{
+margin-top: 2rem;
+border-radius: 10px;
+background-color: black;
+
+}
+
+.loginNav{
+font-size: 2rem;
+font-family: 'Times New Roman', Times, serif;
+text-decoration: none;
+border-radius: 20px;
+color: white;
+padding-top: 3rem;
+}
+
+
+section nav ul{
+display: flex;
+justify-content: center;
+align-items: center;
+float: right;
+text-decoration: none;
+padding-right: 5rem;
+list-style: none;
+}
+
+section nav ul li{
+display: flex;
+justify-items: auto;
+position: relative;
+margin-right: 50px;
+text-decoration: none;
+position: relative;
+}
+
+section nav ul li a{
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+display: block;
+color: white;
+text-align: center;
+/*padding: 15px;*/
+text-decoration: none;
+font-size: 25px;
+padding-top: 2rem;
+transition: all 0.3s;
+}
+
+section nav ul li a:hover{
+color: orange;
+}
+
+.navContainer ul li:hover .dropdown-menu {
+display: block;
+position: absolute;
+left: 0;
+top: 100%;
+background-color: var(--color-black);
+}
+
+.navContainer ul li:hover .dropdown-menu ul {
+display: block;
+margin: 10px;
+}
+.menu-bar ul li:hover .dropdown-menu ul li {
+width: 250px;
+padding: 10px;
+background-color: gray;
+}
+.fas {
+float: right;
+margin-left: 10px;
+padding-top: 3px;
+}
+
+.dropdown-menu {
+display: none;
+}
+
+#responsibleSection{
+    margin-top: 5rem;
+}
+
+#sectionHeader{
+    margin-left: 6rem;
+    font-size: 2.4rem;
+}
+
+#responsibleSpan{
+    color: red;
+    font-weight: 900;
+}
+.responsibleContainer h2{
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+#responsibleSection{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#responsible{
+  margin-left: 20%;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 3rem  ;
+}
+
+.responsibleList{
+  margin-left: 25%;
+}
+
+.responsibleContainer h2{
+    margin-left: 6rem;
+    margin-top: 4rem;
+    font-size: 1.7rem;
+}
+
+.responsibleContainer p{
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.35px;
+    margin-left: 6rem;
+}
+
+#terms{
+  width: 100%;
+  height: 50vh;
+  margin-top: 9rem;
+}
+
+#terms h2{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.policyContainer{
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 28rem;
+}
+
+.term img{
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.sustainability img{
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.sustainability:hover{
+  border-radius: -150%;
+}
+
+.responsability img{
+  width: auto;
+  border-radius: 50%;
+  margin-right: 4rem;
+}
+
+.covid img{
+  border-radius: 50%;
+}

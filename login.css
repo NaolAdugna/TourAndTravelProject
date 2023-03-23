@@ -1,0 +1,165 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background:linear-gradient(-45deg,#FF864B,#8A98CE,#96F7B1);
+    background-size: cover;
+    animation-name: change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 90vh;
+}
+
+.first{
+    width: 700px;
+    height: 600px;
+    background:linear-gradient(-45deg,#96F7B1,#8E638C,#00C193);
+    text-align: center;
+  /*  margin-top: 10rem; */
+   margin-left: 400px;
+    border-radius: 20px;
+}
+
+.first img{
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+.second{
+    padding-top: 2rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: auto;
+    position:sticky;
+    transition: 200ms ease;
+
+}
+
+.second:hover{
+    color: rgb(240, 212, 56);
+}
+
+.form{
+    padding: 15px;
+}
+
+.user{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    font-weight: 900;
+    font-family: "Times New Roman";
+}
+
+.pass{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    font-weight: 900;
+    font-family: "Times New Roman";
+}
+
+#user{
+    font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+    margin-left: 0.6rem;
+    width: 260px;
+    font-size: 1.2rem;
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+#pass{
+    font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+    margin-left: 0.6rem;
+    width: 260px;
+    font-size: 1.2rem;
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+    color: black;
+}
+
+.log{
+    font-size: 2.2rem;
+    border-radius: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 19px;
+    margin-bottom: 1rem;
+}
+.log:hover{
+    background-color: black;
+    color: white;
+}
+.login{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: "Times New Roman";
+}
+
+@keyframes change {
+    0%{
+        background: 0 50%;
+    }
+    50%{
+        background: 100% 50%;
+    }
+    100%{
+        background: 100 50%;
+    }
+}
+
+.account{
+    font-size: 1.3em;
+}
+
+.sign{
+    text-decoration: none;
+    font-size: 1.29em;
+    color: white;
+}
+
+.fb{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-right: 5px;
+    filter: drop-shadow(4px 4px 2px black);
+}
+
+.google{
+    font-size: 30px;
+    color: whitesmoke;
+   margin-right: 5px;
+   filter: drop-shadow(4px 4px 2px black);
+}
+.twitter{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-right: 5px;
+    filter: drop-shadow(4px 4px 2px black);
+}
+.linkedin{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-right: 5px;
+    filter: drop-shadow(4px 4px 2px black);
+}/*
+.skype{
+    font-size: 30px;
+    color: whitesmoke;
+    filter: drop-shadow(4px 4px 2px black);
+} */
